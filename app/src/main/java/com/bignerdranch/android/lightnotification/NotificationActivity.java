@@ -46,7 +46,7 @@ public class NotificationActivity extends AppCompatActivity {
                 .setContentText("default")
                 .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher))
                 .build();
-        notification.bigContentView = remoteViews;
+        notification.bigContentView = remoteViews;//修改下配置文件，启用的有bug
         mManager.notify(1, notification);
     }
 
