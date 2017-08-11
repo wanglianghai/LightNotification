@@ -2,4 +2,5 @@
     <string name="app_name">LightNotification</string>
     <string name="normal_notification">普通通知</string>
     <string name="folder_notification">折叠式通知</string>
+    <string name="extent_view">展开后的视图</string>
 </resources>
